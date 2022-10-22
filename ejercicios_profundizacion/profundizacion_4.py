@@ -85,9 +85,6 @@ nombre_completo_1 = str(input('ingresar el nombre completo del padre: '))
 nombre_completo_2 = str(input('ingresar el nombre completo de la madre: '))
 nombre_hijo = str(input('ingrese solo el nombre del hijo: '))
 
-direccion_completa = 'Monroe 2716'
-calle, altura = direccion_completa.split(' ')
-
 nombre_padre, apellido_padre = nombre_completo_1.split(' ')
 nombre_madre, apellido_madre = nombre_completo_2.split(' ')
 
